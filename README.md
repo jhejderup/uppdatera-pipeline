@@ -1,7 +1,6 @@
 # uppdatera-docker
 
-A collection of Docker images for building and running the pipeline of the paper
-Uppdatera. 
+A collection of Docker images that systemaitcally creates artifical updates for evaluating how effective user tests are in detecting simple faults in library dependencies.
 
 ## Table of Contents
 
