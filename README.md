@@ -17,6 +17,20 @@ Uppdatera.
 
 The `run.sh` in each folder contains instructions on how to run the Docker image.
 
+## Building an image
+Inspect the `run.sh` and look for the name of the image, then:
+
+```sh
+docker build -t <image name> .
+```
+
+## Running an image
+
+```sh
+ #sha is optional
+ docker run -v  <physical_dir>:/data uppdatera owner/repo sha
+```
+
 ## Prerequisites
 
 - Docker
